@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Roboto', arial;
+}
+
+h1 {
+  color: #f9faf8;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.navbar {
+  background-color: #1f2937;
+  color: #fff;
+  height: 60px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar li {
+  margin-left: 16px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header {
+  background-color: #1f2937;
+  padding: 24px 0px 80px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.image {
+  width: 800px;
+  height: 200px;
+  background-color: gray;
+  color: #e5e7eb;
+
+  display: grid;
+  place-items: center;
+}
+
+.header h1 {
+  font-size: 48px;
+}
+
+.header p {
+  color: #e5e7eb;
+  margin: 16px 0px;
+}
+
+.header button:hover {
+  background-color: lightblue;
+}
+
+.button {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-outline {
+  background-color: #3882f6;
+  border: 4px solid #fff;
+  border-radius: 8px;
+  color: #f9faf8;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.info {
+  padding: 24px 0px;
+}
+
+.info h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 30px;
+}
+
+.info .boxes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.box {
+  width: 150px;
+}
+
+.box p {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.box-image {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+}
+
+.testimony {
+  background-color: #e5e7eb;
+}
+
+.testimony .container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 200px;
+}
+
+.testimony em {
+  font-size: 30px;
+  color: #1f2937;
+}
+
+.testimony strong {
+  font-size: 20px;
+  align-self: flex-end;
+}
+
+.action .container {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 100px;
+  margin: 24px auto;
+  border-radius: 8px;
+}
+
+.action p {
+  color: #e5e7eb;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+footer p {
+  text-align: center;
+  padding: 40px;
+}
