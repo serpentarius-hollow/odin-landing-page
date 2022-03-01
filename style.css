@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+  font-family: 'Roboto', arial;
+}
+
+.header {
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+.header ul a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.header-logo {
+  font-size: 24px;
+}
